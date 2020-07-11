@@ -42,28 +42,34 @@ body {
   0% {
     transform: translateX(-25%);
   }
+
   100% {
     transform: translateX(25%);
   }
 }
+
 body {
   background: #63b3ed;
 }
+
 #myForm {
-  max-width: 450px;
+  max-width: 500px;
   padding: 10px;
   margin: 30px auto;
   background: #09f;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
 }
+
 header {
   font-family: "Pacifico", cursive;
   text-align: center;
 }
+
 h1 {
   margin-bottom: 10px;
 }
+
 #myForm h1 {
   font-family: "Galada", cursive;
   font-weight: 300;
@@ -72,17 +78,44 @@ h1 {
   background: black;
   border-radius: 10px;
 }
+
 form {
   background: #6c3;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 10px;
 }
+
+label,
+span {
+  display: inline-block;
+  width: 50px;
+}
+
+#displayGPA {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
 #enteredInputs {
+  padding: 5px;
   text-align: center;
   background-color: wheat;
-  border-radius: 20px;
+  border-radius: 10px;
 }
+
+#enteredInputs h4 {
+  margin: 0;
+}
+
+
+button {
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
 footer {
-  float: right;
+  color: white;
 }
